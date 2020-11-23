@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 
   s.description  = <<-DESC
                 自己经常使用的一些工具
-
+                DESC
   s.homepage     = "https://github.com/liuhuaixuan/HXToolsDemo.git"
 
   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }

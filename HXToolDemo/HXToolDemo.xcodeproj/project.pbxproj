@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B5183AA256B5B2000A6C78F /* UIImage+HXImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5183A9256B5B2000A6C78F /* UIImage+HXImage.m */; };
 		1BBA0CE524E7E75B000DB2CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBA0CE424E7E75B000DB2CC /* AppDelegate.m */; };
 		1BBA0CE824E7E75B000DB2CC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBA0CE724E7E75B000DB2CC /* SceneDelegate.m */; };
 		1BBA0CEB24E7E75B000DB2CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBA0CEA24E7E75B000DB2CC /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B5183A8256B5B2000A6C78F /* UIImage+HXImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+HXImage.h"; sourceTree = "<group>"; };
+		1B5183A9256B5B2000A6C78F /* UIImage+HXImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HXImage.m"; sourceTree = "<group>"; };
 		1BBA0CE024E7E75B000DB2CC /* HXToolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXToolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BBA0CE324E7E75B000DB2CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1BBA0CE424E7E75B000DB2CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B5183A7256B5AF300A6C78F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				1B5183A8256B5B2000A6C78F /* UIImage+HXImage.h */,
+				1B5183A9256B5B2000A6C78F /* UIImage+HXImage.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		1BBA0CD724E7E75B000DB2CC = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +73,7 @@
 		1BBA0CE224E7E75B000DB2CC /* HXToolDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1B5183A7256B5AF300A6C78F /* Tools */,
 				1BBA0CE324E7E75B000DB2CC /* AppDelegate.h */,
 				1BBA0CE424E7E75B000DB2CC /* AppDelegate.m */,
 				1BBA0CE624E7E75B000DB2CC /* SceneDelegate.h */,
@@ -148,6 +161,7 @@
 			files = (
 				1BBA0CEB24E7E75B000DB2CC /* ViewController.m in Sources */,
 				1BBA0CE524E7E75B000DB2CC /* AppDelegate.m in Sources */,
+				1B5183AA256B5B2000A6C78F /* UIImage+HXImage.m in Sources */,
 				1BBA0CF624E7E75C000DB2CC /* main.m in Sources */,
 				1BBA0CE824E7E75B000DB2CC /* SceneDelegate.m in Sources */,
 			);

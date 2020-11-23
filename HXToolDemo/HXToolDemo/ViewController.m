@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "UIImage+HXImage.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *imgView;
 
 @end
 
@@ -16,7 +18,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    
+    self.imgView.image = [UIImage hx_imageWithName:@"编组 2"];
 }
 
 
